@@ -5,17 +5,5 @@
 
 * Ruby 1.9.3+ or 2+
 * Pi_Piper Gem
-* RealRand Gem
 * MPlayer2
 * Alsa Support
-
-## Workflow
-
-1. Parse the configured list of sayings into an array of strings
-2. Get a list of truly random numbers from random.org
-3. Receive external stimulus (GPIO, HTTP request etc.)
-4. Select a random string from the array
-5. Check if the saying wav is already cached
-  1. Retrieve it and cache if not
-6. Playback the saying wav with an external player
-7. Wait for next stimulus
