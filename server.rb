@@ -12,4 +12,6 @@ trap 'INT' do server.shutdown end
 
 server.mount '/', TalkingBin::App
 
+TalkingBin::PhraseManager.instance.load
+
 server.start
