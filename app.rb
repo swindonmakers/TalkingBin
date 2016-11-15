@@ -1,6 +1,7 @@
 require 'yaml'
 require 'cache'
 require 'phrase_manager'
+require 'config'
 
 module TalkingBin
   class App < WEBrick::HTTPServlet::AbstractServlet
