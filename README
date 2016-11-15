@@ -4,9 +4,9 @@ A means to speak witty aphorisms upon receipt of an HTTP request.
 
 More info coming soon.
 
-## Dependancies
+## Dependencies
 
 * Ruby 1.9.3+ or 2+
-* Pi_Piper Gem
+* WEBrick
 * MPlayer2
 * Alsa Support
